@@ -1,0 +1,25 @@
+.search__container {
+  padding: 20px 20px 10px;
+
+  border-bottom: 1px solid rgb(220, 213, 213);
+}
+
+.search__container__elements {
+  display: grid;
+  grid-template-areas: 'img search';
+  grid-template-columns: -webkit-max-content;
+  grid-template-columns: max-content;
+  grid-gap: 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+
+  margin: 0 auto;
+  width: 80%;
+}
+
+.search__input {
+  width: 100%;
+  border: white;
+  outline: none;
+}

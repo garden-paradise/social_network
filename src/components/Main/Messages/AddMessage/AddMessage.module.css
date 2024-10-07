@@ -1,0 +1,37 @@
+.addMessageForm {
+  width: 488px;
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.message__form {
+  padding: 15px;
+
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.message__form_field {
+  border: 1px solid rgb(72, 67, 167);
+  border-radius: 4px;
+  resize: none;
+}
+
+.message__form_button {
+  border-radius: 8px;
+  padding: 5px 6px;
+
+  background: rgb(72, 67, 167);
+  border-color: white;
+  color: white;
+  outline: none;
+}

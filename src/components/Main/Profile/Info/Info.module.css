@@ -1,0 +1,28 @@
+.info {
+  grid-area: info;
+  padding: 10px 20px;
+}
+
+.info_name {
+  font-weight: bold;
+}
+
+.info_status {
+  padding: 0 0 3px;
+  border-bottom: 1px solid rgb(220, 213, 213);
+}
+
+.info_lookingForAJob_setting {
+  float: right;
+  cursor: pointer;
+}
+
+.info_lookingForAJob_title {
+  margin-top: 3px;
+  word-wrap: break-word;
+  max-width: 100ch;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  white-space: pre;
+  overflow: hidden;
+}

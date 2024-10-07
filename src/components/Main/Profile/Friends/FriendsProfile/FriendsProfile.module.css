@@ -1,0 +1,15 @@
+.profile {
+  margin: 0 auto;
+  grid-area: 'profile';
+  text-align: center;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 8ch;
+}
+
+.profile_link {
+  text-decoration: none;
+  color: black;
+}

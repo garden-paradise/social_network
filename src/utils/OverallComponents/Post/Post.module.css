@@ -1,0 +1,43 @@
+.post {
+  margin-bottom: 8px;
+}
+
+.post__delete {
+  cursor: pointer;
+  float: right;
+  padding-right: 5px;
+}
+
+.post__delete:hover {
+  color: red;
+}
+
+.post__post {
+  padding: 15px;
+}
+
+.post__post_data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.post__post_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 2px 15px;
+}
+
+.post__post_date {
+  font-size: 10px;
+}
+
+.post__text {
+  margin-top: 10px;
+  word-wrap: break-word;
+}

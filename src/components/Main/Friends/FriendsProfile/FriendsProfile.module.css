@@ -1,0 +1,41 @@
+.friendsProfile {
+  display: grid;
+  grid-template-areas: 'avatar info button';
+  grid-template-columns: 1fr 6fr 3.6fr;
+  grid-gap: 15px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+
+  border-bottom: 1px solid rgb(220, 213, 213);
+  padding: 8px 0;
+}
+
+.friendsProfile__infoProfile_status {
+  font-size: 10px;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.friendsProfile__addFriendBtn {
+  border-radius: 8px;
+  padding: 5px;
+  float: right;
+  font-size: 9px;
+  font-weight: bold;
+
+  background: rgb(72, 67, 167);
+  border-color: white;
+  color: white;
+  outline: none;
+  cursor: pointer;
+}
+
+.friendsProfile_link {
+  text-decoration: none;
+}

@@ -1,0 +1,33 @@
+.setting_info_edit {
+  margin: 0 auto;
+  text-align: left;
+}
+
+.setting_field_input {
+  padding: 5px;
+  margin-top: 10px;
+  border: 1px solid rgb(72, 67, 167);
+  border-radius: 4px;
+  width: 170px;
+
+  resize: none;
+}
+
+.setting_btn {
+  margin: 0 auto;
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+
+  border-radius: 8px;
+  padding: 5px 7px;
+
+  background: rgb(72, 67, 167);
+  border-color: white;
+  color: white;
+  outline: none;
+
+  font-weight: bold;
+  cursor: pointer;
+}

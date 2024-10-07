@@ -1,0 +1,21 @@
+.message {
+  padding: 10px 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.message__name {
+  margin-left: 15px;
+}
+
+.message__date {
+  margin-left: 10px;
+  font-size: 11px;
+  color: rgb(137, 137, 137);
+}
+
+.message__text {
+  word-wrap: break-word;
+  margin-left: 15px;
+}

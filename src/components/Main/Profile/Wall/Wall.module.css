@@ -1,0 +1,8 @@
+.wall {
+  grid-area: wall;
+}
+
+.wall_noPost {
+  text-align: center;
+  padding: 20px;
+}
