@@ -20,9 +20,9 @@ const Messages: React.FC<any> = ({
 
   const clickDate = new Date();
 
-  const addNewMessage = (message: { textArea: string }) => {
+  const addNewMessage = (message: {  }) => {
     addMessage(
-      message.textArea.trim(),
+      // message.textArea.trim(),
       clickDate.toLocaleString('ru', {
         hour: 'numeric',
         minute: 'numeric',
