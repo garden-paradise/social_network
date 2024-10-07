@@ -1,6 +1,8 @@
 import axios from 'axios';
 import { MyFriendsProfileType } from '../redux/app-reducer';
 
+axios.defaults.headers.post['Content-Type'] ='application/x-www-form-urlencoded';
+
 export let instance = axios.create({
   withCredentials: true,
   baseURL: 'https://social-network.samuraijs.com/api/1.0/',
